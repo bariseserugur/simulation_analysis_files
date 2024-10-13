@@ -17,8 +17,8 @@ from MDAnalysis.analysis.hydrogenbonds import HydrogenBondAnalysis
 sys.setrecursionlimit(100000)
 
 '''
-This script takes in the system, and iterates through every molecule and in each iteration, removes all other molecules and calculates
-the vapor state energy. Then, it calculates the difference between the sum of vapor phase energies and the ensemble liquid energy and divides it by 
+Read the input system and iterate through every molecule, and in each iteration, remove all other molecules and calculate
+the vapor state energy. Then, calculate the difference between the sum of vapor phase energies and the ensemble liquid energy and divide it by 
 system volume to obtain the Hildebrand solubility parameter in kJ/cm3.
 '''
 

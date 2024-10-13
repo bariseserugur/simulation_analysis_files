@@ -10,6 +10,8 @@ import MDAnalysis as mda
 import copy
 start = time.time()
 
+'''Distinguish the monomer backbone/side-chain groups and save each group as a .pdb file. The output file consists of the centers of masses for each backbone group or side chain for RDF analysis.'''
+
 topology = md.load('sys.pdb').topology
 total_atom_count = topology.n_atoms
 

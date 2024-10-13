@@ -6,6 +6,8 @@ import pickle
 import joblib
 from joblib import Parallel,delayed
 
+'''Calculate all hydrogen bonds within the polymer-CBD system, defined geometrically based on O-H-O angle and O-O distance.'''
+
 traj_file = sys.argv[1] #trajectory file
 pdb_file = sys.argv[2] #.pdb file
 

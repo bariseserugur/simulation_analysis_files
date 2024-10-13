@@ -17,6 +17,8 @@ import copy
 import joblib
 from joblib import Parallel,delayed
 
+'''Categorize all analyzed hydrogen bonds and calculate the average number of hydrogen bonds per frame for each category.'''
+
 topology = md.load('sys.pdb').topology
 total_atom_count = topology.n_atoms
 

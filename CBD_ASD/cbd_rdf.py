@@ -11,6 +11,8 @@ from MDAnalysis.analysis import distances
 from MDAnalysis.analysis.distances import dist
 from MDAnalysis.analysis.hydrogenbonds import HydrogenBondAnalysis
 
+'''Calculate the radial distribution function between various CBD groups generated via the "cbd_com.py" script.'''
+
 t = md.load('cbd_monomer_com.lammpstrj',top='cbd_monomer_com.pdb')
 topology = t.topology
 

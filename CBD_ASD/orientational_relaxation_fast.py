@@ -12,6 +12,9 @@ import itertools
 import time
 from multiprocessing import Pool
 
+'''Compute the orientational autocorrelation functions and times for all water molecules in the polymer pellet-water system. 
+Also calculate the distance of each water molecule from nearest polymer chain to allow analysis of orientational relaxation times based on distance from polymer atoms.'''
+
 lammpstrj_file_name = '300_dynamics.lammpstrj'
 lammpstrj_file = open(lammpstrj_file_name,'r')
 polymer_count = len([i for i in open('sys.pdb','r').readlines() if 'ATOM' in i])

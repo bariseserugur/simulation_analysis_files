@@ -11,6 +11,8 @@ import copy
 from return_monomer import return_monomer
 from scipy.stats import linregress
 
+'''Calculate the polymer scaling exponent for each polymer-CBD system.'''
+
 def dist_pbc(x0, x1, dimensions): 
     delta = x0-x1
     delta = np.where(delta > 0.5*dimensions, delta-dimensions, np.where(delta < -0.5*dimensions, delta+dimensions, delta))

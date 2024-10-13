@@ -10,8 +10,8 @@ import MDAnalysis as mda
 import copy
 start = time.time()
 
-'''This script divides every CBD molecule into three functional groups (compatibilizer, hydrophilic, tail), and creates a .pdb file with center of mass of these groups, 
-along with the oxygens in every polymer.''' 
+'''Divide every CBD molecule into three functional groups (compatibilizer, hydrophilic, tail), and create a .pdb file with center of mass of these groups, 
+along with the oxygens in every polymer. The resulting .pdb can be used for radial distribution function analysis.'''
 
 POLY = sys.argv[1]
 

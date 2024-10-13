@@ -18,7 +18,7 @@ import joblib
 from joblib import Parallel,delayed
 from scipy.optimize import curve_fit
 
-'''This code analyzes the HB lifetimes for polymer-polymer, polymer-solvent, and solvent-solvent hydrogen bonds. 
+'''Analyze the HB lifetimes for polymer-polymer, polymer-solvent, and solvent-solvent hydrogen bonds. 
 The output consists of five numpy saves: 
 1) the array of tau_values, 
 2) polymer-polymer HB lifetime array, 
