@@ -5,6 +5,8 @@ import os
 import numpy as np
 import sys
 
+'''Compile and compute the potential, kinetic, and total energies, temperatures, volumes, densities and additional parameters for each configuration simulated via classical MD.'''
+
 kb = 8.31446261815324 #kJ/molK
 avogadro = 6.0221409e23
 atm_to_pa = 101325 # atm to pascals

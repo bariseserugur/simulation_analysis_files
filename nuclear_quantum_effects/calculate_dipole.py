@@ -4,11 +4,12 @@ import time
 import itertools
 import sys
 
+'''Compute the dipole moment of the system at each frame.'''
+
 start = time.time()
 
 dirname = sys.argv[1]
 simno = int(sys.argv[2])
-
 
 kb = 1.380649e-23
 etocoulomb = 1.60217646e-19
